@@ -1,8 +1,21 @@
-# Getting Started with Create React App
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a simple dummy site to show the use of recaptcha v3 and v2. V3's authentication here, is used to get into a protected page('/secure') from a designated route('/page'), and in the background of the whole app.
+V2 is used to authenticate the user if not coming from the designated route(a reload , or any other route except '/page').
 
-## Available Scripts
+## Running the app
+
+### Start the server
+
+Run `node server.js` in the terminal.
+
+### Start the client
+
+Run `npm i` in the terminal.
+Run `npm run start` in the terminal.
+
+## Other Available Scripts
 
 In the project directory, you can run:
 
